@@ -12,8 +12,8 @@ git submodule add <url> <path>
 
 #### grabbing updates inside a submodule
 
-`cd` to the submodule
+1. `cd` to the submodule
+2. `git pull` to update update the project
+3. back to the main project and `git add`, `git commit` and push.
 
-```bash
-git pull
-```
+## Docker
