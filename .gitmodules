@@ -1,9 +1,3 @@
-[submodule "graphql"]
-	path = graphql
-	url = https://github.com/weicheng2138/express-graphql-practice
-[submodule "backend"]
-	path = backend
-	url = git@github.com:work-weicheng/total-solution-backend.git
 [submodule "true-backend"]
 	path = true-backend
 	url = workgit:work-weicheng/ben-backend.git
