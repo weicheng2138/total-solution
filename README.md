@@ -2,10 +2,18 @@
 
 ## Git Submodule
 
-### Setup
+### Process
+
+#### link new submodule, and better to use ssh url.
 
 ```bash
-# better to use ssh url
 git submodule add <url> <path>
+```
 
+#### grabbing updates inside a submodule
+
+`cd` to the submodule
+
+```bash
+git pull
 ```
