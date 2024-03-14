@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = workgit:work-weicheng/ben-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = personalgit:weicheng2138/ben-frontend.git
