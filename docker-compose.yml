@@ -2,15 +2,18 @@ version: "3"
 services:
   frontend:
     image: front-image:latest
-    environment:
-      - VITE_API_URL=http://localhost:8081
+    container_name: frontend
+    # environment:
+    #   - VITE_API_URL=http://localhost:8081
     build:
       context: ./frontend
       dockerfile: Dockerfile
+      target: build
     ports:
       - 8082:8082
   backend:
     image: back-image:latest
+    container_name: backend
     build:
       context: ./backend
       dockerfile: Dockerfile

@@ -25,3 +25,15 @@ git submodule add <url> <path>
 ## Docker
 
 ### Compose process
+
+1. Create images and run containers in the background
+
+```bash
+docker-compose up --build -d
+```
+
+2. Stop and remove containers
+
+```bash
+docker-compose down
+```
