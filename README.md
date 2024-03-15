@@ -23,3 +23,5 @@ git submodule add <url> <path>
 3. `git commit`
 
 ## Docker
+
+### Compose process
